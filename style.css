@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    background-color: #FFFFFF;
+}
+
+/* To adjust the horizontal rule just uncomment the code below*/
+/* .objective hr {
+    width: 118px;
+}
+
+.work-experience hr {
+    width: 320px;
+}
+
+.projects hr{
+    width: 108px;
+}
+
+.education hr{
+    width: 130px;
+} */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+.left hr {
+    border: 2px solid #fff;
+}
+
+.right {
+    padding: 15px 20px 0 30px;
+}
+
+.image-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #1877f2;
+}
+
+.image-container img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 7px 3px;
+    font-size: 13px
+}
+
+.personal-info{
+    padding: 30px;
+}
+
+.contact{
+    padding-bottom: 20px;
+}
+
+.contact h3{
+    padding: 10px 0 0 20px;
+}
+
+.contact p{
+    padding-left: 20px;
+    color: #888;
+}
+
+.skills {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left ul{
+    list-style-type: none;
+    padding: 15px 20px 20px 20px;
+}
+.progress {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #777;
+    margin: 5px auto;
+}
+.progress span {
+    position: absolute;
+    height: 100%;
+    background-color: #1877f2;
+}
+.certificates p{
+    margin: 9px auto;
+}
+
+.right h2{
+    color: #1877f2;
+}
+.right hr{
+    border: 2px solid #222222;
+}
+.objective p{
+    padding: 10px 0 20px 0;
+}
+.right ul{
+    padding: 10px 0 30px 20px;
+}
+.right p{
+    color: #444;
+}
